@@ -1,0 +1,272 @@
+/* Top */
+* {
+  margin: 0;
+  padding: 0.5;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+body {
+  background-color: #374850;
+}
+.about,
+.home,
+.contact {
+  padding: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+
+.home {
+  background: url(Assets/image/fullstackbg.jpeg);
+}
+
+/* Portfolio */
+.banner {
+  min-height: 100vh;
+  background: url(Assets/image/aboutme.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: scroll;
+  margin-right: 10px;
+  text-align: center;
+}
+
+/* My name */
+.banner h1 span {
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 2em;
+  margin-bottom: 2rem;
+  font-family: lobster;
+  color: mediumpurple;
+}
+
+.banner h3 {
+  font-size: 2em;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  text-align: center;
+}
+.banner h2 {
+  font-size: 2.5em;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Tourney';
+  font-weight: 900;
+  text-align: center;
+}
+
+/*Nav*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+nav .logo {
+  color: rgb(255, 224, 228);
+  font-size: 24px;
+  /* text-transform: uppercase; */
+  text-decoration: wavy;
+  font-weight: 700;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+nav ul li {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li a {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+  color: mistyrose;
+  font-size: 20px;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* About me heading */
+
+#about {
+  margin-right: 10px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: wheat;
+  height: inherit;
+  font-size: 30px;
+} 
+
+.heading h2 {
+  padding: 50px;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.contentBx h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: left;
+  justify-content: space-between;
+  color: #9370db;
+}
+
+.contentBx {
+  padding-right: 30px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+
+.w50 {
+  min-width: 50%;
+}
+
+.bio-img {
+  max-width: 50%;
+  margin-left: 50%;
+  margin-top: 80px;
+}
+
+.my-3 {
+  color: #9370db;
+  font-weight: 700;
+}
+
+/* Skills */
+
+#skills {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: wheat;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.heading1 ul li {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+}
+
+
+/* .Projects {
+} */
+
+.heading2 h2 {
+  padding: 50px;
+  font-weight: 600;
+  font-size: 40px;
+  color: wheat;
+}
+
+.heading2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: silver;
+  height: inherit;
+  font-size: 25px;
+} 
+
+.card {
+  background: #6b7c83;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 20px 10px 20px;
+  font-size: 20px;
+}
+
+card-group {
+  margin-left: 2px;
+  padding: 100px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+/* Contact */
+
+#contact {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: wheat;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#email, 
+#github,
+#resume,
+#linkedin {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #50585c;
+  color: silver;
+  height: 50px; }
+
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+    width: 90%;
+    display: flex;
+  }
+  .card {
+    display: table-row;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; }
+  .projects {
+    grid-template-columns: 1fr; } }
