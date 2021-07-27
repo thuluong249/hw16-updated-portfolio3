@@ -1,6 +1,6 @@
 # hw16-updated-portfolio3 👩‍💻
 
-![Banner](./Assets/image/github.jpeg)
+![Banner](./Assets/image/banner.jpeg)
 
 ![License](https://img.shields.io/badge/LICENSE-MIT-GREEN)
 
@@ -27,7 +27,7 @@
 # 📸 Screenshot 📸
 
 Home page 
-![Home Page](./Assets/image/homepage.png)
+![Home Page](./Assets/image/portfolio.png)
 
 ---
 
