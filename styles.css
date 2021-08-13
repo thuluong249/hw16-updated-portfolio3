@@ -69,15 +69,14 @@ body {
 /*Nav*/
 
 nav {
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
+  justify-content: flex-end right;
   margin-top: 20px;
 }
 
 nav .logo {
   color: rgb(255, 224, 228);
   font-size: 24px;
-  /* text-transform: uppercase; */
   text-decoration: wavy;
   font-weight: 700;
   letter-spacing: 2px;
@@ -91,14 +90,15 @@ nav ul {
 }
 
 nav ul li {
-  position: relative;
+  position: flex-end;
+  justify-content: right;
   list-style: none;
   overflow: hidden;
 }
 
 nav ul li a {
   position: relative;
-  display: inline-block;
+  display: inline-block ;
   margin: 0 20px;
   color: mistyrose;
   font-size: 20px;
