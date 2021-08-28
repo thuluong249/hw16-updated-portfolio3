@@ -18,7 +18,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
@@ -27,8 +27,6 @@
   </head>
 
   <body>
-    <!-- <h1 class="animate__animated animate__fadeInTopLeft">An animated element</h1> -->
-    <!-- <div class="container-fluid animate__animated animate__fadeInDown"> -->
       <nav id="home">
         <a href="#" class="logo container-fluid animate__animated animate__rotateInUpLeft"><strong>TL</strong></a>
         <div class="toggle"></div>
@@ -42,19 +40,21 @@
         </ul>
         </nav>
       <section class="banner">
-        <div class="textBx w50 animate__animated animate__rotateIn">
+        <div class="textBx w50 animate__zoomIn">
           <h3>Hello, My name is</h3>
           <h1><span>Thu Luong</span></h1>
           <h2>Full Stack Web Developer</h2>
         </div>
       </section>
+
       <section class="about">
+        <!-- <div class="animate__animated animate__fadeInDownBig"> -->
         <div class="heading">
-          <h2 id="about">About Me</h2>
+          <h2 class="animate__animated animate__fadeInBottomLeft" id="about">About Me</h2>
         </div>
         <div class="content">
           <div class="contentBx">
-            <h1><span>I am a student</span></h1>
+            <h1 class="animate__animated animate__fadeInBottomRight"><span>I am a student</span></h1>
             <p>
               Since I moved to the US from Vietnam two years ago, I have had held two part-time jobs and in 2021 decided to return to my studies. I completed a bachelor’s degree in Banking and Finance in Vietnam, but as a student now, the most interesting thing is using my second language, English, in class. Upon taking up my studies again, I was nervous despite having previously worked in accounting, but I learned a lot. Overcoming this initial challenge of using my second language in a field I studied before, I decided to undertake a greater challenge and join University of Connecticut’s Certificate in Coding Course. 
               <h4 class="my-3">💻 My skills 💻 </h4>
@@ -66,15 +66,16 @@
                     <li>MySQL</li>
             </p>
           </div>
-          <div class="w50">
-            <img src="Assets/image/profile.jpg" class="image bio-img" />
+          <div class="w50 animate__zoomIn">
+            <img src="Assets/image/profile1.jpg" class="image bio-img" />
+          </div>
           </div>
         </div>
       </section>
       
       <section class="projects">
         <div class="heading2">
-          <h2 id="projects">Projects</h2>
+          <h2 class="animate__animated animate__fadeInDown" id="projects">Projects</h2>
           <p>
             These are the 3 projects that I have done and Will do until the end
             of my course. The first one My Classmate and I have builded after
@@ -122,9 +123,11 @@
           </div>
         </div>
 
+      </section>
+
       <section class="contact ContactMe">
         <div class="heading3">
-          <h2 id="contact">Contact Me</h2>
+          <h2 class="animate__animated animate__fadeInRight" id="contact">Contact Me</h2>
 
       <p id="email">
         <strong>Email me: </strong><a href="mailto:thujtn2019@gmmail.com">💌 Email</a> 
@@ -146,7 +149,12 @@
       </section>
     </div>
   </body>
+
+  <section class="footer">
   <footer id="main-footer">Copyright &copy 2021</footer>
+</section>
+
+
   <script>
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
   src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" 
